@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Algorithm Visualizer</h1>
+    <div class="controls">
+      <label for="algorithm">Choose Algorithm:</label>
+      <select id="algorithm" onchange="updateDescription()">
+        <option value="bubble">Bubble Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+      </select>
+      <label for="size">Array Size:</label>
+      <input type="range" id="size" min="10" max="100" value="50">
+      <label for="speed">Speed:</label>
+      <input type="range" id="speed" min="1" max="100" value="50">
+      <label for="sound">Enable Sound</label>
+      <input type="checkbox" id="sound" checked>
+      <button onclick="generateArray()">Generate Array</button>
+      <button onclick="startSort()">Start Sorting</button>
+    </div>
+    <div id="array-container"></div>
+    <div class="description-box">
+      <h3>Algorithm Description</h3>
+      <p id="algo-description"></p>
+      <h4>Time Complexity</h4>
+      <p id="algo-complexity"></p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
