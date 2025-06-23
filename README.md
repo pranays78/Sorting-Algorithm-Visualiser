@@ -27,7 +27,7 @@ An interactive web application to visualize the working of popular sorting algor
 
 ## 🎥 Demo Video
 
-▶️ [Watch Sorting Visualizer Demo on Google Drive](https://drive.google.com/file/d/19Q49Lmxd1qz48JJm62q9yg2_PCpF86sJ/view?usp=sharing)
+▶️ [Watch Sorting Visualizer Demo ](https://drive.google.com/file/d/19Q49Lmxd1qz48JJm62q9yg2_PCpF86sJ/view?usp=sharing)
 
 ---
 
